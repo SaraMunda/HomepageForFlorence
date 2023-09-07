@@ -12,7 +12,7 @@ body{
 }
 
 .nav-left {
-    margin-left:  15px;
+    margin-left: 15px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     color:#DDDCDC;
@@ -25,9 +25,9 @@ body{
     font-weight: bold;
 }
 
-a {
-    padding: 0 10px;
+a{
     text-decoration: none;
+    padding: 10px;
     color:#DDDCDC;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 
 h3{
     text-align: center;
-    color: #2B1712;
+    color:#2B1712;
     font-family: 'Playfair Display', serif;
     margin-top: 30px;
 }
@@ -81,10 +81,21 @@ h3{
 }
     
 .a-wrapper{
-    margin: 0px 0px 15px 15px;
+    margin: 0px 0px 15px 8px;
 }
 
-h2,h4{
+.a-wrapper a{
+    text-decoration:underline;
+}
+
+
+#footer-txt{
+    color:#DDDCDC;
+    font-family: 'Playfair Display', serif;
+    margin: auto 15px;
+}
+
+#footer-txt2{
     color:#DDDCDC;
     font-family: 'Playfair Display', serif;
     margin: auto 15px;
