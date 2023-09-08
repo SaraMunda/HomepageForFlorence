@@ -3,7 +3,6 @@ body{
     background-color:#E0D5CC;
 }
 
-
 .nav-wrapper {
     display:flex;
     align-items: center;
@@ -18,14 +17,13 @@ body{
     color:#DDDCDC;
 }
 
-
 .nav-right{
     margin-right: 15px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
-a{
+.nav-right a{
     text-decoration: none;
     padding: 10px;
     color:#DDDCDC;
@@ -86,8 +84,9 @@ h3{
 
 .a-wrapper a{
     text-decoration:underline;
+    padding: 10px;
+    color:#DDDCDC;
 }
-
 
 #footer-txt{
     color:#DDDCDC;
