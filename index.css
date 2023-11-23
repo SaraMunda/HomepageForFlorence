@@ -100,3 +100,50 @@ h3{
     font-family: 'Playfair Display', serif;
     margin: auto 15px;
 }
+
+#menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #DDDCDC;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    #main-img {
+        height: auto;
+    }
+    .img-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-wrapper {
+        padding: 5px;
+    }
+    .footer-wrapper {
+        padding: 10px;
+    }
+    .nav-right{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background-color: #A25737;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .nav-right a {
+    display: block;
+    padding: 10px;
+    color: #DDDCDC;
+    border-top: 1px solid #DDDCDC;
+    text-align: center;
+    }
+    #menu-icon {
+        display: block;
+    }
+
+}
